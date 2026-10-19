@@ -1,0 +1,51 @@
+name: lockbox
+description: "A secure local vault app."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+
+  # Routing
+  go_router: ^14.8.1
+
+  # Local database (Drift)
+  drift: ^2.23.1
+  sqlite3_flutter_libs: ^0.5.28
+
+  # Biometric / device auth
+  local_auth: ^2.3.0
+  local_auth_android: ^1.0.56
+
+  # Encrypted key-value storage
+  flutter_secure_storage: ^9.2.4
+
+  # Cryptography (PBKDF2 HMAC-SHA256)
+  crypto: ^3.0.6
+
+  # Utilities
+  path_provider: ^2.1.5
+  path: ^1.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+  # Code generation
+  build_runner: ^2.4.14
+  drift_dev: ^2.23.1
+  riverpod_generator: ^2.6.3
+  custom_lint: ^0.7.5
+  riverpod_lint: ^2.6.3
+
+flutter:
+  uses-material-design: true

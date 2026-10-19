@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_service_description">Lockbox uses this service to detect when a locked app is opened and show the authentication screen.</string>
+</resources>
